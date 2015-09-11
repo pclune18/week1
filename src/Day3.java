@@ -7,7 +7,7 @@ public class Day3 {
         SketchPadWindow win= new SketchPadWindow(600,400);
         Pen p= new WigglePen(win);
         p.setWidth(10);
-        p.setColor(Color.green);
+        p.setColor(Color.black);
         int size=100;
         p.move(size);
         p.turn(90);
